@@ -31,7 +31,7 @@ export default function Hero() {
           </h1>
 
           <p className="hero-tag">
-            The next sound you need to hear. <b>{a.genre}</b> — built for the night, written for the soul.
+            KUDOOS is a Nigerian singer and songwriter, well known for his slogan, "Seeing Is Believing." He crafts songs about motivation, love, and everyday life through Afrobeats, Afro-fusion, and Nigerian pop.
           </p>
 
           <div className="hero-genres">
@@ -51,7 +51,13 @@ export default function Hero() {
             </a>
           </div>
 
-          <div className="hero-meta">
+          {/* HERO STATISTICS - Commented out temporarily
+          This section displays artist statistics in the hero area:
+          - Monthly Listeners (128K)
+          - Number of Releases (34)
+          - Latest Drop year (2026)
+          Uncomment this section to restore the statistics display */}
+          {/* <div className="hero-meta">
             <div className="hero-stat">
               <span className="n">{SITE.heroStats.listeners}</span>
               <span className="l">Monthly Listeners</span>
@@ -64,7 +70,7 @@ export default function Hero() {
               <span className="n">2026</span>
               <span className="l">Latest Drop</span>
             </div>
-          </div>
+          </div> */}
 
           <Socials style={{ marginTop: '30px' }} />
         </div>

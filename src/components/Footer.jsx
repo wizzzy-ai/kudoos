@@ -30,7 +30,7 @@ export default function Footer() {
             <h4>Navigate</h4>
             <ul className="f-links">
               <li><a href="#music">Music</a></li>
-              <li><a href="#about">About</a></li>
+              <li><a href="#biography">Biography</a></li>
               <li><a href="#videos">Videos</a></li>
               <li><a href="#shows">Shows</a></li>
               <li><a href="#gallery">Gallery</a></li>

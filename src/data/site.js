@@ -60,17 +60,6 @@ export const SITE = {
       tracks: ['t1', 't2'],
     },
     {
-      id: 'after-dark',
-      title: 'After Dark',
-      type: 'ep',
-      date: '2025-11-02',
-      dateLabel: '2 November 2025',
-      cover: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1000&q=80',
-      featured: false,
-      flag: 'EP · 5 Tracks',
-      tracks: ['t3', 't4', 't5'],
-    },
-    {
       id: 'lagos-midnight',
       title: 'Lagos Midnight',
       type: 'single',
@@ -101,7 +90,6 @@ export const SITE = {
   tracks: [
     { id: 't1', title: 'Dance', release: 'Dance', duration: '3:42', durationSec: 222, tag: 'New', cover: '/picture/dance.png', audio: '/audio/Dance - Kudoos.mp3' },
     { id: 't2', title: 'Life Is Not Easy', release: 'Single', duration: '3:15', durationSec: 195, tag: 'New', cover: '/picture/Life is not easy.png', audio: '/audio/Life Is Not Easy - Kudoos.mp3' },
-    { id: 't3', title: 'After Dark', release: 'After Dark EP', duration: '4:05', durationSec: 245, tag: '', cover: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=400&q=70', audio: '' },
   ],
 
   /* ---------- STREAMING PLATFORMS ----------
@@ -183,11 +171,11 @@ export const SITE = {
 
   /* ---------- NEWSLETTER + TICKER ---------- */
   ticker: [
-    'New single — Nightfall Protocol out now',
-    'After Dark EP — 50M+ streams',
-    'European tour dates announced',
-    'New music video premiere',
-    'Booking open for 2027',
+    'New single — Dance out now',
+    'Life Is Not Easy — Available on all platforms',
+    'Seeing Is Believing — KUDOOS official website',
+    'Afrobeats sensation from Lagos, Nigeria',
+    'Booking open for shows and performances',
   ],
 };
 
@@ -195,14 +183,14 @@ export const SITE = {
 export const NAV_LINKS = [
   { href: '#home', label: 'Home' },
   { href: '#music', label: 'Music' },
-  { href: '#about', label: 'About' },
+  { href: '#biography', label: 'Biography' },
   { href: '#videos', label: 'Videos' },
   { href: '#shows', label: 'Shows' },
   { href: '#gallery', label: 'Gallery' },
   { href: '#contact', label: 'Contact' },
 ];
 
-export const SECTION_IDS = ['home', 'music', 'about', 'videos', 'shows', 'gallery', 'contact'];
+export const SECTION_IDS = ['home', 'music', 'biography', 'videos', 'shows', 'gallery', 'contact'];
 
 /* ---------- SMALL HELPERS ---------- */
 export const isPlaceholder = (href) => !href || href === '#' || href.trim() === '';
