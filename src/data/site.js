@@ -14,7 +14,7 @@ export const SITE = {
     tagline: 'Seeing Is Believing',
     genre: 'Afrobeats / Afro-fusion / Nigerian Pop',
     location: 'Lagos, Nigeria',
-    genres: ['Afrobeats', 'Afro-fusion', 'Nigerian Pop', 'Dancehall', 'Highlife'],
+    genres: ['Afrobeats', 'Afro-fusion', 'Nigerian Pop', 'Dancehall'],
     // Replace with a high-res portrait (recommended 1600x2000px, JPG/WebP)
     heroImage: '/picture/dance banner.png',
     aboutImage: 'https://images.unsplash.com/photo-1520975916090-3105956dac38?auto=format&fit=crop&w=1200&q=80',
@@ -23,7 +23,7 @@ export const SITE = {
     // Paragraphs may contain simple inline HTML (e.g. <strong>)
     bioFull: [
       'KUDOOS (Uyiobong Effiong Okon), born 17 October 1995, is a Nigerian singer and songwriter known professionally as KUDOOS. He hails from Ibiono Ibom, Akwa Ibom State, Nigeria, and grew up in Ikono, Uyo, where he developed his passion for music and began shaping his artistic identity.',
-      'KUDOOS is known for songs such as <strong>"Dance"</strong> and <strong>"Life Is Not Easy."</strong> His music explores themes of motivation, love, and everyday life, blending Afrobeats, Nigerian pop, Afro-fusion, and highlife with elements of dancehall to create a distinctive sound.',
+      'KUDOOS is known for songs such as <strong>"Dance"</strong> and <strong>"Life Is Not Easy."</strong> His music explores themes of motivation, love, and everyday life, blending Afrobeats, Nigerian pop, Afro-fusion with elements of dancehall to create a distinctive sound.',
       'KUDOOS began his musical journey in 2011 while attending secondary school in Akwa Ibom State. During his early years in music, he developed the slogan <strong>"Seeing Is Believing,"</strong> which became closely associated with his artistic identity.',
       'Driven by his ambition to share his music with a wider audience, KUDOOS later moved to Lagos, where he continued developing his career professionally. His music combines inspirational messages, emotional themes, and energetic rhythms, connecting with listeners through storytelling and his unique musical style.',
       'As he continues his musical journey, KUDOOS remains focused on creating meaningful music, reaching new audiences, and establishing his identity within the Nigerian music scene.',

@@ -138,7 +138,7 @@ export default function Music() {
           <Reveal className="sh-left">
             <span className="eyebrow">Discography</span>
             <h2 className="display h-lg">The Music</h2>
-            <p className="lead">Stream the latest release, dig into the catalogue, and find Nova Reign on every platform you already use.</p>
+            <p className="lead">Stream the latest release, dig into the catalogue, and find Kudoos on every platform you already use.</p>
           </Reveal>
           <Reveal className="d1">
             <div className="tabs" role="tablist" aria-label="Music catalogue filters">

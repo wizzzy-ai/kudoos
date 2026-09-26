@@ -19,7 +19,7 @@ export default function Newsletter() {
 
           <Reveal className="d1">
             <NewsletterForm />
-            <p className="nl-priv">By subscribing you agree to receive occasional emails from Nova Reign. Unsubscribe anytime.</p>
+            <p className="nl-priv">By subscribing you agree to receive occasional emails from Kudoos. Unsubscribe anytime.</p>
           </Reveal>
         </div>
       </div>

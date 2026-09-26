@@ -29,7 +29,7 @@ export default function Videos() {
           <Reveal className="sh-left">
             <span className="eyebrow">Visuals</span>
             <h2 className="display h-lg">Music Videos</h2>
-            <p className="lead">Cinematic visuals, live sessions and studio footage — shot and directed by Nova Reign's creative team.</p>
+            <p className="lead">Cinematic visuals, live sessions and studio footage — shot and directed by Kudoos's creative team.</p>
           </Reveal>
           <Reveal className="d1">
             <a href="#" className="btn btn-ghost" data-placeholder="youtube-channel" rel="noopener">

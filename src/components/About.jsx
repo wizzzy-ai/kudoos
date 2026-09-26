@@ -23,7 +23,7 @@ export default function About() {
 
         <div className="about-grid">
           <Reveal className="about-photo">
-            <img src={a.aboutImage} alt="Portrait of Nova Reign" loading="lazy" />
+            <img src={a.aboutImage} alt="Portrait of Kudoos" loading="lazy" />
             <div className="about-photo-tag">
               <span className="r">{a.name}</span>
               <span className="n">{a.location}</span>

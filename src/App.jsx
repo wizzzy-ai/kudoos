@@ -84,7 +84,7 @@ export default function App() {
 
   /* Boot log (parity with the original site) */
   useEffect(() => {
-    console.log('%cNOVA REIGN — site config loaded', 'color:#E8112D;font-weight:700');
+    console.log('%cKUDOOS — site config loaded', 'color:#E8112D;font-weight:700');
   }, []);
 
   return (
