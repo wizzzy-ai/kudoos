@@ -36,7 +36,6 @@ export function TrackRow({ id, index }) {
       <img className="track-art" src={t.cover} alt="" loading="lazy" />
       <span className="track-txt">
         <span className="track-title">{t.title}</span>
-        <span className="track-sub">{t.release}</span>
       </span>
       {t.tag
         ? <span className={`track-tag${t.tag.toLowerCase() === 'new' ? ' new' : ''}`}>{t.tag}</span>
