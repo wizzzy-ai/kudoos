@@ -126,8 +126,11 @@ export function PlatformGrid({ withExt }) {
 
 export default function Music() {
   const [tab, setTab] = useState('all');
+  const { current } = usePlayer();
 
-  const featured = SITE.releases.find((r) => r.featured) || SITE.releases[0];
+  // Find the release that contains the currently playing track
+  const currentRelease = SITE.releases.find((r) => r.tracks.includes(current.id));
+  const featured = currentRelease || SITE.releases.find((r) => r.featured) || SITE.releases[0];
   const singles = SITE.releases.filter((r) => r.type === 'single');
   const eps = SITE.releases.filter((r) => r.type === 'ep');
 

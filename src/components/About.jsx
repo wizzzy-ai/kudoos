@@ -58,14 +58,20 @@ export default function About() {
           </Reveal>
         </div>
 
-        <Reveal className="stats d2">
+        {/* Statistics section - Displays artist metrics including:
+            - Songs Released count
+            - Monthly Listeners count
+            - Shows Performed count
+            - Years Active count
+            Temporarily commented out */}
+        {/* <Reveal className="stats d2">
           {SITE.stats.map((s) => (
             <div className="stat" key={s.label}>
               <div className="n">{s.value}{s.suffix}<span style={{ color: 'var(--red)' }}>+</span></div>
               <div className="l">{s.label}</div>
             </div>
           ))}
-        </Reveal>
+        </Reveal> */}
       </div>
     </section>
   );

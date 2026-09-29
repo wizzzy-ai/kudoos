@@ -31,7 +31,7 @@ export default function Hero() {
           </h1>
 
           <p className="hero-tag">
-            KUDOOS is a Nigerian singer and songwriter, well known for his slogan, "Seeing Is Believing." He crafts songs about motivation, love, and everyday life through Afrobeats, Afro-fusion, and Nigerian pop.
+            KUDOOS is a Nigerian singer and songwriter, well known for his slogan, "Seeing Is Believing." He crafts songs about motivation, love, and everyday life.
           </p>
 
           <div className="hero-genres">
