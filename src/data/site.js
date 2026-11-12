@@ -17,7 +17,7 @@ export const SITE = {
     genres: ['Afrobeats', 'Afro-fusion', 'Nigerian Pop', 'Dancehall'],
     // Replace with a high-res portrait (recommended 1600x2000px, JPG/WebP)
     heroImage: '/picture/dance banner.png',
-    aboutImage: 'https://images.unsplash.com/photo-1520975916090-3105956dac38?auto=format&fit=crop&w=1200&q=80',
+    aboutImage: '/picture/gallery-1.jpg',
     bioShort:
       'Nigerian singer and songwriter known professionally as KUDOOS. Known for songs like "Dance" and "Life Is Not Easy," blending Afrobeats, Nigerian pop, and Afro-fusion with elements of dancehall.',
     // Paragraphs may contain simple inline HTML (e.g. <strong>)
